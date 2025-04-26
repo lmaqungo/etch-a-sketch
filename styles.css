@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 8px;
+}
+
+.container{
+    width: 800px;
+    height: 800px;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 1px;
+}
+
+.game{
+    display:flex;
+    gap: 64px;
+
+}
+
+.cell{
+    padding: 0;
+    margin: 0;
+    border-radius: 8px;
+}
+
+.row{
+    display: flex;
+    gap: 1px;
+}
+
+.color{
+    background-color: rgb(9, 9, 97);
+}
+
+button{
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+button.reset {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
+  
+button.edit {
+    background: white;
+    border: 1px solid #ddd;
+    color: royalblue;
+}
+
+
